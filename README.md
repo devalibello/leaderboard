@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/global_minbar.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>To-Do List Website</b></h3>
+  <h3><b>LeaderBoard</b></h3>
 
 </div>
 
@@ -60,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-Do List Website] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-**[To-Do List Website]** This project is to build a To-Do List website.
+**[Leaderboard]** This project is to build a website to practice the use of APIs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -83,9 +83,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[ The structure of the website was designed ]**
 - **[webpack is used for the implementation]**
-- **[and and remove items from the to-do list]**
-- **[mark an item as completed for deletion]**
-- **[The javascript code is split into modules]**
+- **[Render the site dynamically using javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +95,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://devalibello.github.io/to-do-list/dist)
+- [Live Demo Link](https://devalibello.github.io/leaderboard/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +114,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder. Use the command: git clone https://github.com/devalibello/to-do-list.git
+Clone this repository to your desired folder. Use the command: git clone https://github.com/devalibello/leaderboard.git
 
 ### Install
 
@@ -180,6 +178,8 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add more styling to the webpage to make it look more attractive]**
+- [ ] **[Implement API GET and POST requests]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
