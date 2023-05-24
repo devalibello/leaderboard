@@ -1,0 +1,78 @@
+* {
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.complete-body {
+  display: flex;
+  justify-content: center;
+}
+
+.recent-score-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  padding: 20px;
+}
+
+.add-score-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  width: 40%;
+  margin-left: auto;
+}
+
+.input-space {
+  margin: 17px 0;
+}
+
+.add-score {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.recent-scores {
+  margin-right: 15px;
+  font-size: 1.4em;
+}
+
+.refresh-btn {
+  margin-top: 4px;
+}
+
+.leaderboard {
+  margin-left: 5%;
+}
+
+.names-and-scores {
+  max-height: 50vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.name-element {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  padding-left: 7px;
+}
+
+.name-color-1 {
+  background-color: rgb(172, 166, 166);
+}
