@@ -31,6 +31,9 @@ getButton.addEventListener('click', async () => {
   await fetch(url).then((response) => response.json())
     .then((responseData) => {
       const realData = responseData.result;
+      if (realData) {
+        scoreContainer.classList.add('border');
+      }
       scoreContainer.innerHTML = '';
       for (let i = 0; i < realData.length; i += 1) {
         scoreContainer.innerHTML += `
