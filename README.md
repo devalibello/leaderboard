@@ -84,6 +84,10 @@ After you're finished please remove all the comments and instructions!
 - **[ The structure of the website was designed ]**
 - **[webpack is used for the implementation]**
 - **[Render the site dynamically using javascript]**
+- **[Send data to a server using POST API]**
+- **[Retrieve data to a server using GET API]**
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +182,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add more styling to the webpage to make it look more attractive]**
-- [ ] **[Implement API GET and POST requests]**
+- [ ] **[Handle errors using 'try' and 'catch']**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

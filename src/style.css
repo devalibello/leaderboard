@@ -33,6 +33,7 @@
 .submit-btn {
   width: 40%;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .input-space {
@@ -51,6 +52,7 @@
 
 .refresh-btn {
   margin-top: 4px;
+  cursor: pointer;
 }
 
 .leaderboard {
