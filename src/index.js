@@ -1,7 +1,7 @@
 import './style.css';
 import PostObject from './modules/postobject.js';
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/microverse-ali/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ali-microverse/scores/';
 const getButton = document.getElementById('refresh-btn');
 const scoreContainer = document.getElementById('names-and-scores');
 const addGame = document.getElementById('submit-btn');
