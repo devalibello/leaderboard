@@ -25,18 +25,26 @@ addGame.addEventListener('click', async () => {
 
 // FOR API GET
 
-getButton.addEventListener('click', async () => {
-  await fetch(url).then((response) => response.json())
-    .then((responseData) => {
-      const realData = responseData.result;
-      if (realData.length !== 0) {
-        scoreContainer.classList.add('border');
-      }
-      scoreContainer.innerHTML = '';
-      for (let i = 0; i < realData.length; i += 1) {
-        scoreContainer.innerHTML += `
-          <li class='name-color-${i % 2} name-element'>${realData[i].user}: ${realData[i].score}</li>
-          `;
-      }
-    });
+getButton.addEventListener('click', () => {
+  getFunction();
 });
+
+const getFunction = async () => {
+  await fetch(url).then((response) => response.json())
+  .then((responseData) => {
+    const realData = responseData.result;
+    if (realData.length !== 0) {
+      scoreContainer.classList.add('border');
+    }
+    scoreContainer.innerHTML = '';
+    for (let i = 0; i < realData.length; i += 1) {
+      scoreContainer.innerHTML += `
+        <li class='name-color-${i % 2} name-element'>${realData[i].user}: ${realData[i].score}</li>
+        `;
+    }
+  });
+};
+
+window.onload = getFunction;
+
+

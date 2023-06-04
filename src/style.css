@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,900&display=swap');
+
+
 * {
   list-style-type: none;
   box-sizing: border-box;
@@ -84,4 +88,19 @@
 
 .name-color-1 {
   background-color: rgb(172, 166, 166);
+}
+
+.see-scores {
+  color: red;
+  text-decoration: solid;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.created-title {
+  color: blue;
+  font-family: 'Kaushan Script', cursive, sans-serif;
 }
