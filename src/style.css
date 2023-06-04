@@ -4,12 +4,14 @@
 * {
   list-style-type: none;
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
 }
 
 .complete-body {
   display: flex;
   justify-content: center;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .recent-score-area {
@@ -97,6 +99,7 @@
   bottom: 0;
   width: 100%;
   text-align: center;
+  padding: 0 5px;
 }
 
 .created-title {
