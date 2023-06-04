@@ -10,6 +10,8 @@
 .complete-body {
   display: flex;
   justify-content: center;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .recent-score-area {
@@ -97,6 +99,7 @@
   bottom: 0;
   width: 100%;
   text-align: center;
+  padding: 0 5px;
 }
 
 .created-title {
