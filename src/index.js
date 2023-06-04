@@ -16,9 +16,7 @@ addGame.addEventListener('click', async () => {
   userScore.value = '';
   const options = {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(newPostObject),
   };
   await fetch(url, options)
@@ -37,8 +35,8 @@ getButton.addEventListener('click', async () => {
       scoreContainer.innerHTML = '';
       for (let i = 0; i < realData.length; i += 1) {
         scoreContainer.innerHTML += `
-                <li class='name-color-${i % 2} name-element'>${realData[i].user}: ${realData[i].score}</li>
-                `;
+          <li class='name-color-${i % 2} name-element'>${realData[i].user}: ${realData[i].score}</li>
+          `;
       }
     });
 });
